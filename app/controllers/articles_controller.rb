@@ -10,7 +10,6 @@ class ArticlesController < ApplicationController
 		@comment = Comment.new
 		@comment.article_id = @article.id
 
-
 	end
 
 	def new
@@ -48,7 +47,4 @@ class ArticlesController < ApplicationController
 
 	  	redirect_to article_path(@article)
 	end
-
-
-
 end
