@@ -30,6 +30,13 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#Use paperclip a library that manages file attachments and uploading
+gem "paperclip"
+
+#Sorcery is a lightweight and straightforward authentication service gem. It strikes a good balance of functionality and complexity
+gem 'sorcery'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
